@@ -2,6 +2,9 @@
 #include <limits.h>
 using namespace std;
 
+// T.C -> O(n)
+// S.C -> O(1)
+
 int findMini(int arr[], int size)
 {
     // inittalize the min with the maximum possible integer value
