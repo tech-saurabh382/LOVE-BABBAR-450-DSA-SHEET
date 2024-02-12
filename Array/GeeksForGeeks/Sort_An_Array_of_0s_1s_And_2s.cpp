@@ -58,24 +58,24 @@ public:
         // Three Pointer Approach -> Dutch National Flag Method
         // T.C -> O(n)
         // S.C -> (O1)
-        int l = 0, m = 0;
-        int h = n - 1;
-        while (m <= h)
+        int start = 0, i = 0;
+        int end = n - 1;
+        while (i <= end)
         {
-            if (a[m] == 0)
+            if (a[i] == 0)
             {
-                swap(a[l], a[m]);
-                l++;
-                m++;
+                swap(a[start], a[i]);
+                start++;
+                i++;
             }
-            else if (a[m] == 1)
+            else if (a[i] == 1)
             {
-                m++;
+                i++;
             }
             else
             {
-                swap(a[m], a[h]);
-                h--;
+                swap(a[i], a[end]);
+                end--;
             }
         }
     }
