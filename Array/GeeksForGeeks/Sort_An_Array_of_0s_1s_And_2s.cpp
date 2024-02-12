@@ -57,7 +57,7 @@ public:
         // code here
         // Three Pointer Approach -> Dutch National Flag Method
         // T.C -> O(n)
-        // S.C -> (O1)
+        // S.C -> (1)
         int start = 0, i = 0;
         int end = n - 1;
         while (i <= end)
