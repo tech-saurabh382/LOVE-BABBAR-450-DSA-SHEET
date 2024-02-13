@@ -1,4 +1,4 @@
-// GFG Problem
+// Leetcode Problem
 // 287. Find the Duplicate Number - > https://leetcode.com/problems/find-the-duplicate-number/description/
 
 // Question Description
