@@ -26,6 +26,10 @@
 // Constraints:
 // 1 ≤ N ≤ 1000
 
+// Company tags
+
+// Morgan Stanley Microsoft Samsung MakeMyTrip MAQ Software Adobe Philips BrowserStack
+
 // ******** Solution ********
 
 //{ Driver Code Starts
