@@ -56,9 +56,13 @@ class Solution
 {
 public:
     // Function to return a list of integers denoting spiral traversal of matrix.
-    vector<int> spirallyTraverse(vector<vector<int> > matrix, int r, int c)
+    vector<int> spirallyTraverse(vector<vector<int>> matrix, int r, int c)
     {
         // code here
+
+        // T.C -> O(r*c)
+        // S.C -> O(r*c)
+
         vector<int> ans;
         int total_element = r * c;
 
@@ -117,7 +121,7 @@ int main()
     {
         int r, c;
         cin >> r >> c;
-        vector<vector<int> > matrix(r);
+        vector<vector<int>> matrix(r);
 
         for (int i = 0; i < r; i++)
         {
